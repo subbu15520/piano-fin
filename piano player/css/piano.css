@@ -6,12 +6,12 @@
 }
 
 .white-key {
-    width: 75px;
+    width: 65px;
     height: 200px;
     background-color: #FFF;
     border: 4px solid black;
     border-radius: 0 0 10px 10px;
-    margin-left: -4px;
+    margin-left: -6px;
     outline: none;
     cursor: pointer;
 }
@@ -22,7 +22,7 @@
 
 .black-key {
     position: absolute;
-    width: 45px;
+    width: 42px;
     height: 137px;
     background-image: linear-gradient(#000000, #303030);
     border: 3px solid black;
@@ -37,11 +37,11 @@
     position: absolute;
     background-color: rgba(255, 0, 60, 0.844);
     color: white;
-    border-radius: 4px;
-    height: 60px;
-    width: 150px;
-    left: 365px;
-    top: 60px;
+    border-radius: 20%;
+    height: 30px;
+    width: 30px;
+    left: 686px;
+    top: 123px;
 }
 
 .black-key.active {
@@ -49,35 +49,35 @@
 }
 
 .Db4-key {
-    left: 46px;
+    left: 38px;
 }
 
 .Eb4-key {
-    left: 122px;
+    left: 100px;
 }
 
 .Gb4-key {
-    left: 274px;
+    left: 226px;
 }
 
 .Ab4-key {
-    left: 348px;
+    left: 290px;
 }
 
 .Bb4-key {
-    left: 425px;
+    left: 415px;
 }
 
 .Db5-key {
-    left: 575px;
+    left: 479px;
 }
 
 .Eb5-key {
-    left: 649px;
+    left: 542px;
 }
 
 @media only screen and (min-width:1000px) {
-.piano {
+    .piano {
         display: none;
         flex-wrap: row;
         align-self: flex-end;
@@ -117,11 +117,11 @@
         position: absolute;
         background-color: rgba(255, 0, 60, 0.844);
         color: white;
-        border-radius: 4px;
-        height: 60px;
-        width: 140px;
-        left: 620px;
-        top: 150px;
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        left: 1110px;
+        top: 388px;
     }
 
     .black-key.active {
@@ -155,5 +155,5 @@
     .Eb5-key {
         left: 692px;
     }
-    
+
 }
